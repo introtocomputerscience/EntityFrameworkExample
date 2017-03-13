@@ -1,0 +1,7 @@
+﻿CREATE TABLE [Bank].[Account]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+    [Type] NVARCHAR(50) NOT NULL, 
+    [Balance] FLOAT NOT NULL,
+
+)

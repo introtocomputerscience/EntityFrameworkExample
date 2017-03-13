@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aedb8b03576e4798951bfd6f2959c53a" Name="Diagram1">
+        <EntityTypeShape EntityType="entityframeworkexampleModel.Account" Width="1.5" PointX="1" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="entityframeworkexampleModel.AccountMapping" Width="1.5" PointX="3.875" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="entityframeworkexampleModel.User" Width="1.5" PointX="1" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="entityframeworkexampleModel.FK_AccountMapping_ToAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="entityframeworkexampleModel.FK_AccountMapping_ToUser" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
