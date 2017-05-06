@@ -114,7 +114,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
@@ -132,6 +134,8 @@
     <Compile Include="Models\AccountMapping.cs">
       <DependentUpon>BankModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\AddAccountRequest.cs" />
+    <Compile Include="Models\AddUserRequest.cs" />
     <Compile Include="Models\BankModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
